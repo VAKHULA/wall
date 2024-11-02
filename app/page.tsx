@@ -73,7 +73,6 @@ export default function Home() {
                 method: 'POST',
                 body: JSON.stringify(editedNotice)
               })
-              editedNotice
               setEditedNotice(undefined)
             }}
           />
