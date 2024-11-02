@@ -1,7 +1,11 @@
+'use client'
+import { Canvas, useCanvas } from '@/app/canvas'
+
 export default function Home() {
+  const canvasRef = useCanvas()
   return (
     <div>
-      hi
+      <Canvas {...canvasRef}>hi</Canvas>
     </div>
   );
 }
